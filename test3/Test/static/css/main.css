@@ -1,0 +1,44 @@
+p{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+.ce,
+.box {
+  text-align: center;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.set input[type=radio],
+.second-2 input[name=color],
+.third-2 input[name=od],
+.forth-2 input[name=ss]{
+  display: none;
+}
+
+.set input[type=radio]:checked+label,
+.second-2 input[type=radio]:checked+label,
+.third-2 input[type=radio]:checked+label,
+.forth-2 input[type=radio]:checked+label{
+  background-color: lightgray;
+  border: 6px solid lightgray;
+  color:white;
+  border-radius: 10px;
+}
+
+.set1:hover,
+.ce:hover {
+  cursor : pointer;
+  border: 3px solid lightblue;
+}
+
+

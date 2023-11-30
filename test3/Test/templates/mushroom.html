@@ -1,0 +1,11 @@
+<link rel="icon" href="{{ url_for('static', filename='img/icon.jpg') }}" />
+<form action="/mushroom/survey" method="POST">
+    <div style="text-align:center;">
+        <h1>독 버섯 분류 모델</h1>
+        <img src="{{url_for('static', filename='img/info.jpg')}}">
+        <br>
+        <input type="submit" value="식용/독 버섯 예측 하기" 
+        style="cursor:crosshair; font-size: 24px;  background-color: wheat; color: red;" 
+        />
+    </div>
+</form>

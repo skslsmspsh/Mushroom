@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/sub.css') }}">
+<link rel="icon" href="{{ url_for('static', filename='img/icon.jpg') }}" />
+<title>mushroom_ML</title>
+
+</head>
+    <body>
+        <div class="box1">
+            <div>
+              <i class="fa-solid fa-utensils edible"></i>
+              <p class="text-success">식용버섯 입니다</p>
+            </div>
+        
+            <div class="box2">
+                <a href="survey">돌아가기</a>
+            </div>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/result.js') }}"></script>
+    </body>
+</head>
